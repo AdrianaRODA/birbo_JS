@@ -1,15 +1,15 @@
 //PRODUCTOS
 
-if(!localStorage.getItem('carrito')){
+/*if(!localStorage.getItem('carrito')){
     localStorage.setItem('carrito', JSON.stringify([]))
-}
+}*/
 let divProductos = document.getElementById("contenedorFavoritos")
 
 fetch('../products.json')
 .then(response => response.json())
 .then(data => {
     data.forEach((productArray, indice) => {
-        contenedorFavoritos.innerHTML += `
+        divProductos.innerHTML += `
         <div class="box">
         <div class="image">
         <img src="img/${productArray.id}.jpg" alt="${productArray.nombre}">
@@ -31,7 +31,7 @@ fetch('../products.json')
 })
 
 
-
+/*
 productos = JSON.parse(localStorage.getItem('carrito'))
 data.forEach((productArray, indice) => {
     document.getElementById(`btn${indice}`).addEventListener('click', () => {
@@ -45,7 +45,7 @@ data.forEach((productArray, indice) => {
             localStorage.setItem('carrito',JSON.stringify(productos))
         }
     })
-})
+})*/
 
 //FORMULARIO CONTACTO
 
