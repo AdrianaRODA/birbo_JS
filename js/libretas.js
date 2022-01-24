@@ -3,8 +3,11 @@
 if (!localStorage.getItem("carrito")) {
   localStorage.setItem("carrito", JSON.stringify([]));
 }
+
 let divProductos = document.getElementById("contenedorFavoritos");
 
+
+//Llamamos el JSON con la lista de productos
 fetch("../products.json")
   .then((response) => response.json())
   .then((data) => {
@@ -27,6 +30,8 @@ fetch("../products.json")
     </div>
     </div>
         `;
+
+    //Agregamos al carrito
     });
     productos = JSON.parse(localStorage.getItem("carrito"));
     data.forEach((productArray) => {
@@ -56,6 +61,7 @@ fetch("../products.json")
     });
   });
 
+  
 //FORMULARIO CONTACTO
 
 $(() => {
