@@ -1,0 +1,25 @@
+/* BIRBOLUX ------------------------------------------------------------------------------------------------------ */
+
+/* Section 1 BANNER */
+
+.banner3 {
+    background-image: $gradient, url(../img/c33.jpg);
+    @extend %banner;
+  
+    h1 {
+      color: $orangepink;
+      font-size: 45px;
+      margin: 0;
+      span{
+        display: block;
+        background-color: black; color: #ccac00;
+      }
+    }
+  
+    div {
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  

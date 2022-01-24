@@ -1,0 +1,24 @@
+/* BIRBOFRIENDS ------------------------------------------------------------------------------------------------------ */
+
+/* Section 1 BANNER */
+
+.banner2 {
+  background-image: $gradient, url(../img/fondo2.jpg);
+  @extend %banner;
+
+  h1 {
+    color: $orangepink;
+    font-size: 45px;
+    margin: 0;
+    span{
+      display: block;
+      background-color: #62c9c3; color: white;
+    }
+  }
+
+  div {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+}

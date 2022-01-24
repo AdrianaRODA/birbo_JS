@@ -1,0 +1,11 @@
+{
+  "name": "birbo-birbsandjournals-web",
+  "version": "1.0.0",
+  "description": "Pagina web informativa y enfocada a la venta de libretas 100% artesanales y hechas a mano con diseños Inspirados en la belleza y singularidad de las aves",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
