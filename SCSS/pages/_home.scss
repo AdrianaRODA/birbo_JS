@@ -319,3 +319,33 @@
     }
   }
 }
+
+/* MODAL CARRITO */
+.img-carrito {
+  height: 6rem;
+  width: 6rem;
+  padding: 0;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.productoEnCarrito {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  p {
+    font-weight: 300;
+    width: 12rem;
+    margin-bottom: 0;
+  }
+  #nombreProd {
+    font-weight: 500;
+    color: $orangepink;
+  }
+}

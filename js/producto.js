@@ -1,4 +1,4 @@
-class Producto {
+/*class Producto {
     constructor (id, linea, nombre, precio, img){
         this.id = id;
         this.linea = linea;
@@ -9,4 +9,4 @@ class Producto {
     }
 }
 
-let productos = []
+let productos = []*/
